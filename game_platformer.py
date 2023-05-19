@@ -9,16 +9,16 @@ import arcade
 
 
 # 💻 Try changing these numbers to adjust the scale of the game
-TILE_SCALING = 1
-PLAYER_SCALING = 1
+TILE_SCALING = 2
+PLAYER_SCALING = 2
 
 # Grid Size
 SPRITE_PIXEL_SIZE = 28
 GRID_PIXEL_SIZE = SPRITE_PIXEL_SIZE * TILE_SCALING
 
 # Screen Settings
-SCREEN_WIDTH = 200
-SCREEN_HEIGHT = 200
+SCREEN_WIDTH = 750
+SCREEN_HEIGHT = 500
 SCREEN_TITLE = "Map Making"
 
 # How many pixels to keep as a minimum margin between the character
@@ -29,9 +29,9 @@ VIEWPORT_RIGHT_MARGIN = 60
 VIEWPORT_LEFT_MARGIN = 60
 
 # Physics
-MOVEMENT_SPEED = 5
-JUMP_SPEED = 20
-GRAVITY = 1.1
+MOVEMENT_SPEED = 15
+JUMP_SPEED = 25
+GRAVITY = 1
 
 
 class MyGame(arcade.Window):
